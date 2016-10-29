@@ -159,10 +159,7 @@ public class C3P0DataSource {
 				for (String sql : sqls) {
 					statement.addBatch(sql);
 				}
-				int[] rlts = statement.executeBatch();
-				for (int rlt : rlts) {
-					System.out.println(rlt);
-				}
+				statement.executeBatch();
 			}
 
 			// commit

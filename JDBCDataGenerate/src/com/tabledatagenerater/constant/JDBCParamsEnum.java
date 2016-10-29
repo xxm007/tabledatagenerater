@@ -9,8 +9,8 @@ package com.tabledatagenerater.constant;
 public enum JDBCParamsEnum {
 
 	DRIVER("oracle.jdbc.driver.OracleDriver"),
-	URL("jdbc:oracle:thin:@192.168.0.160:1521:ipems"),
-	ACCOUNT("huaweipoc"),
+	URL("jdbc:oracle:thin:@127.0.0.1:1521:demo"),
+	ACCOUNT("demo"),
 	PWD("12345678");
 	
 	public String value;
