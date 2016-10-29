@@ -1,4 +1,4 @@
-package com.jdbc;
+package com.tabledatagenerater.constant;
 
 /**
  * JDBC访问的数据参数
@@ -9,7 +9,7 @@ package com.jdbc;
 public enum JDBCParamsEnum {
 
 	DRIVER("oracle.jdbc.driver.OracleDriver"),
-	URL("jdbc:oracle:thin:@192.168.0.73:1521:orcl"),
+	URL("jdbc:oracle:thin:@192.168.0.160:1521:ipems"),
 	ACCOUNT("huaweipoc"),
 	PWD("12345678");
 	

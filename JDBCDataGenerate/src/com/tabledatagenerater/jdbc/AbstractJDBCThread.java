@@ -1,4 +1,4 @@
-package com.jdbc;
+package com.tabledatagenerater.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
